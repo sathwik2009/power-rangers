@@ -1,4 +1,4 @@
-var canvas=new fabric.Canavs('myCanavas')
+var canvas=new fabric.Canvas('myCanvas')
 // Create canvas variable
  block_y=1;
  block_x=1;
@@ -41,7 +41,7 @@ console.log(keyPressed);
 	{
 		block_x = 200;
 		// upload green ranger
-		new_image('gr.jpg');
+		new_image('gr.png');
 		console.log("g")
 
 	}
